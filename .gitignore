@@ -3,5 +3,6 @@ of/*
 Lemmor/*
 2014-08/*
 *.bz2
-
+.gitignore
+.ipynb_checkpoints
 
