@@ -1,0 +1,23 @@
+№,Модель,Время,Качество,Параметры,Примечание
+1.0,LinearSVC,43.1 s,0.8755,C=0.001,y=topics(18)
+2.0,LinearSVC,1min 11s,0.8785,C=0.01,y=topics(18)
+3.0,LinearSVC,2min 45s,0.8651,C=0.1,y=topics(18)
+-,-,-,-,-,-
+4.0,LinearSVC,4min 1s,0.7308,C=0.001,y=rubric(89)
+5.0,LinearSVC,4min 15s,0.7264,C=0.01,y=rubric(89)
+6.0,LinearSVC,11min 33s,0.6988,C=0.1,y=rubric(89)
+-,-,-,-,-,-
+1.0,MLPClassifier,46min 59s,0.8662,alpha=0.0001,y=topics(18)
+-,-,-,-,-,-
+1.0,FastText,2m,0.8745,"dim=32,
+epoch=24,
+minCount=8,
+wordNgrams=2'",y=topics(18)
+2.0,FastText,2m,0.7191,"dim=32,
+epoch=24,
+minCount=8,
+wordNgrams=2'",y=rubric(89)
+-,-,-,-,-,-
+1.0,MultinomialNB,4.35 s,0.7835,alpha=1.0,y=topics(18)
+2.0,MultinomialNB,2.59,0.7948,alpha=10.0,y=topics(18)
+3.0,MultinomialNB,2.6,0.8,alpha=0.001,y=topics(18)
